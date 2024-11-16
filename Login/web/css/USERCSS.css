@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+boton {
+    font-family: inherit;
+}
+
+
+.tarjeta {
+    width: 200px;
+    background-color: rgba(36, 40, 50, 1);
+    background-image: linear-gradient(
+      139deg,
+      rgba(36, 40, 50, 1) 0%,
+      rgba(36, 40, 50, 1) 0%,
+      rgba(37, 28, 40, 1) 100%
+    );
+
+    border-radius: 10px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta .separador {
+    border-top: 1.5px solid #42434a;
+}
+
+.tarjeta .lista {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 10px;
+}
+
+.tarjeta .lista .elemento {
+    display: flex;
+    align-items: center;
+    color: #7e8590;
+    gap: 10px;
+    transition: all 0.3s ease-out;
+    padding: 4px 7px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tarjeta .lista .elemento svg {
+    width: 19px;
+    height: 19px;
+    transition: all 0.3s ease-out;
+}
+
+.tarjeta .lista .elemento .etiqueta {
+    font-weight: 600;
+}
+
+.tarjeta .lista .elemento:hover {
+    background-color: #5353ff;
+    color: #ffffff;
+    transform: translate(1px, -1px);
+}
+
+.tarjeta .lista .eliminar:hover {
+    background-color: #8e2a2a;
+}
+
+.tarjeta .lista .elemento:active {
+    transform: scale(0.99);
+}
+
+.tarjeta .lista:not(:last-child) .elemento:hover svg {
+    stroke: #ffffff;
+}
+
+.tarjeta .lista:last-child svg {
+    stroke: #bd89ff;
+}
+
+.tarjeta .lista:last-child .elemento {
+    color: #bd89ff;
+}
+
+.tarjeta .lista:last-child .elemento:hover {
+    background-color: rgba(56, 45, 71, 0.836);
+}

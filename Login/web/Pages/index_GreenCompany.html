@@ -1,0 +1,70 @@
+<html lang="en" class="hydrated"><head>
+    <meta charset="UTF-8">
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <title>Conocenos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS_pages/GreenCompany.css" type="text/css" media="all">
+    <script>window.console = window.console || function(t) {};</script>
+</head>
+
+    <body translate="no" class="">
+
+        <audio id="background-music" loop=""></audio>
+        <button id="play-pause-button"></button>
+        <p>Conocenos</p>
+        
+        <div id="particles-js" class="particles"><canvas class="particles-js-canvas-el" width="1820" height="808" style="width: 100%; height: 100%;"></canvas></div>
+
+        <div class="container">
+          <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-c310b6b68dc28f10e9" aria-live="polite" style="cursor: grab; transition-duration: 0ms; transform: translate3d(328px, 0px, 0px); transition-delay: 0ms;">
+              <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_Cristian.jpg">
+                <p>Cristian Gutiérrez Flores</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_David.jpg">
+                <p>Francisco David Rojo Martínez</p>
+              </div>
+              <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_Fernanda.jpg">
+                <p>Mily Fernanda Morales Muñoz</p>
+              </div>
+              <div class="swiper-slide" role="group" aria-label="4 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_Luis.jpg">
+                <p>Luis Enrique Flores Gallardo</p>
+              </div>
+              <div class="swiper-slide" role="group" aria-label="5 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_Juan.jpg">
+                <p>Juan Pablo Sánchez Nuñez</p>
+              </div>
+              <div class="swiper-slide" role="group" aria-label="6 / 9" style="margin-right: 10px;">
+                  <img src="IMGS/IMG_Yael.jpg">
+                <p>Rodrigo Yael Gonzalez Nava</p>
+              </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div>
+        <audio id="sound" src="IMGS/fast-whoosh-118248.mp3"></audio> <!-- Audio oculto en HTML -->
+
+<script>
+  // Selecciona el div
+  var slide = document.querySelector('.swiper-slide.swiper-slide-prev');
+
+  // Selecciona el sonido
+  var sound = document.getElementById('sound');
+
+  // Asocia el evento de clic
+  slide.addEventListener('click', function() {
+    sound.play(); // Reproduce el sonido
+  });
+</script>
+
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="CSS_pages/funcion_greencompanyjs.js" id="rendered-js"></script>
+    </body>
+</html>

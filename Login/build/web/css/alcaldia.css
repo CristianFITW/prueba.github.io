@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 nov. 2024, 18:17:45
+    Author     : Usuario
+*/
+.albondigas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://lh4.googleusercontent.com/proxy/s87nPgjmPkorJkc8EgtCEKfTM2pHWOF95MY6s_xvLW74DbmzAQD3FqfYk83asow5SML1C4kka0sLV-yD2gZwCBCokNN2IuoF77FuxxmM6pnq4WLT");
+  background-size: 1500px 1100px; /* Ajusta la imagen a un tamaño fijo */
+  background-position: center; /* Centra la imagen */
+  filter: blur(8px);
+  z-index: -1;  /* Asegura que el fondo quede detrás del contenido */
+}
+
